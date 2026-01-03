@@ -1,492 +1,137 @@
-local _call3 = game:GetService("Players")
-local _call5 = game:GetService("ReplicatedStorage")
-local _LocalPlayer6 = _call3.LocalPlayer
-local _Character9 = _LocalPlayer6.Character
-local _call15 = _call5:WaitForChild("Packages"):WaitForChild("Net"):WaitForChild("RE/UseItem")
-local _ = Enum.KeyCode.R
-task.spawn(function(_20, _20_2)
-    task.wait(0.1)
-    for _23, _23_2 in ipairs(workspace:GetChildren()) do
-        _23_2:IsA("Model")
-        _23_2:FindFirstChild("Humanoid")
-        for _30, _30_2 in ipairs(_23_2:GetChildren()) do
-            local _ = _30_2.Name
-            _30_2:IsA("Accessory")
-            _30_2:Destroy()
-        end
-    end
-    for _38, _38_2 in ipairs(_call3:GetPlayers()) do
-        local _ = _38_2.Character
-        for _43, _43_2 in ipairs(_38_2.Character:GetChildren()) do
-            local _ = _43_2.Name
-            _43_2:IsA("Accessory")
-            _43_2:Destroy()
-        end
-    end
-    task.wait(0.1)
-    for _51, _51_2 in ipairs(workspace:GetChildren()) do
-        _51_2:IsA("Model")
-        _51_2:FindFirstChild("Humanoid")
-        for _58, _58_2 in ipairs(_51_2:GetChildren()) do
-            local _ = _58_2.Name
-            _58_2:IsA("Accessory")
-            _58_2:Destroy()
-        end
-    end
-    for _66, _66_2 in ipairs(_call3:GetPlayers()) do
-        local _ = _66_2.Character
-        for _71, _71_2 in ipairs(_66_2.Character:GetChildren()) do
-            local _ = _71_2.Name
-            _71_2:IsA("Accessory")
-            _71_2:Destroy()
-        end
-    end
-    task.wait(0.1)
-    for _79, _79_2 in ipairs(workspace:GetChildren()) do
-        _79_2:IsA("Model")
-        _79_2:FindFirstChild("Humanoid")
-        for _86, _86_2 in ipairs(_79_2:GetChildren()) do
-            local _ = _86_2.Name
-            _86_2:IsA("Accessory")
-            _86_2:Destroy()
-        end
-    end
-    for _94, _94_2 in ipairs(_call3:GetPlayers()) do
-        local _ = _94_2.Character
-        for _99, _99_2 in ipairs(_94_2.Character:GetChildren()) do
-            local _ = _99_2.Name
-            _99_2:IsA("Accessory")
-            _99_2:Destroy()
-        end
-    end
-    task.wait(0.1)
-    for _107, _107_2 in ipairs(workspace:GetChildren()) do
-        _107_2:IsA("Model")
-        _107_2:FindFirstChild("Humanoid")
-        for _114, _114_2 in ipairs(_107_2:GetChildren()) do
-            local _ = _114_2.Name
-            _114_2:IsA("Accessory")
-            _114_2:Destroy()
-        end
-    end
-    for _122, _122_2 in ipairs(_call3:GetPlayers()) do
-        local _ = _122_2.Character
-        for _127, _127_2 in ipairs(_122_2.Character:GetChildren()) do
-            local _ = _127_2.Name
-            _127_2:IsA("Accessory")
-            _127_2:Destroy()
-        end
-    end
-    task.wait(0.1)
-    for _135, _135_2 in ipairs(workspace:GetChildren()) do
-        _135_2:IsA("Model")
-        _135_2:FindFirstChild("Humanoid")
-        for _142, _142_2 in ipairs(_135_2:GetChildren()) do
-            local _ = _142_2.Name
-            _142_2:IsA("Accessory")
-            _142_2:Destroy()
-        end
-    end
-    for _150, _150_2 in ipairs(_call3:GetPlayers()) do
-        local _ = _150_2.Character
-        for _155, _155_2 in ipairs(_150_2.Character:GetChildren()) do
-            local _ = _155_2.Name
-            _155_2:IsA("Accessory")
-            _155_2:Destroy()
-        end
-    end
-    task.wait(0.1)
-    for _163, _163_2 in ipairs(workspace:GetChildren()) do
-        _163_2:IsA("Model")
-        _163_2:FindFirstChild("Humanoid")
-        for _170, _170_2 in ipairs(_163_2:GetChildren()) do
-            local _ = _170_2.Name
-            _170_2:IsA("Accessory")
-            _170_2:Destroy()
-        end
-    end
-    for _178, _178_2 in ipairs(_call3:GetPlayers()) do
-        local _ = _178_2.Character
-        for _183, _183_2 in ipairs(_178_2.Character:GetChildren()) do
-            local _ = _183_2.Name
-            _183_2:IsA("Accessory")
-            _183_2:Destroy()
-        end
-    end
-    task.wait(0.1)
-    for _191, _191_2 in ipairs(workspace:GetChildren()) do
-        _191_2:IsA("Model")
-        _191_2:FindFirstChild("Humanoid")
-        for _198, _198_2 in ipairs(_191_2:GetChildren()) do
-            local _ = _198_2.Name
-            _198_2:IsA("Accessory")
-            _198_2:Destroy()
-        end
-    end
-    for _206, _206_2 in ipairs(_call3:GetPlayers()) do
-        local _ = _206_2.Character
-        for _211, _211_2 in ipairs(_206_2.Character:GetChildren()) do
-            local _ = _211_2.Name
-            _211_2:IsA("Accessory")
-            _211_2:Destroy()
-        end
-    end
-    task.wait(0.1)
-    for _219, _219_2 in ipairs(workspace:GetChildren()) do
-        _219_2:IsA("Model")
-        _219_2:FindFirstChild("Humanoid")
-        for _226, _226_2 in ipairs(_219_2:GetChildren()) do
-            local _ = _226_2.Name
-            _226_2:IsA("Accessory")
-            _226_2:Destroy()
-        end
-    end
-    for _234, _234_2 in ipairs(_call3:GetPlayers()) do
-        local _ = _234_2.Character
-        for _239, _239_2 in ipairs(_234_2.Character:GetChildren()) do
-            local _ = _239_2.Name
-            _239_2:IsA("Accessory")
-            _239_2:Destroy()
-        end
-    end
-    task.wait(0.1)
-    for _247, _247_2 in ipairs(workspace:GetChildren()) do
-        _247_2:IsA("Model")
-        _247_2:FindFirstChild("Humanoid")
-        for _254, _254_2 in ipairs(_247_2:GetChildren()) do
-            local _ = _254_2.Name
-            _254_2:IsA("Accessory")
-            _254_2:Destroy()
-        end
-    end
-    for _262, _262_2 in ipairs(_call3:GetPlayers()) do
-        local _ = _262_2.Character
-        for _267, _267_2 in ipairs(_262_2.Character:GetChildren()) do
-            local _ = _267_2.Name
-            _267_2:IsA("Accessory")
-            _267_2:Destroy()
-        end
-    end
-    task.wait(0.1)
-    for _275, _275_2 in ipairs(workspace:GetChildren()) do
-        _275_2:IsA("Model")
-        _275_2:FindFirstChild("Humanoid")
-        for _282, _282_2 in ipairs(_275_2:GetChildren()) do
-            local _ = _282_2.Name
-            _282_2:IsA("Accessory")
-            _282_2:Destroy()
-        end
-    end
-    for _290, _290_2 in ipairs(_call3:GetPlayers()) do
-        local _ = _290_2.Character
-        for _295, _295_2 in ipairs(_290_2.Character:GetChildren()) do
-            local _ = _295_2.Name
-            _295_2:IsA("Accessory")
-            _295_2:Destroy()
-        end
-    end
-    task.wait(0.1)
-    for _303, _303_2 in ipairs(workspace:GetChildren()) do
-        _303_2:IsA("Model")
-        _303_2:FindFirstChild("Humanoid")
-        for _310, _310_2 in ipairs(_303_2:GetChildren()) do
-            local _ = _310_2.Name
-            _310_2:IsA("Accessory")
-            _310_2:Destroy()
-        end
-    end
-    for _318, _318_2 in ipairs(_call3:GetPlayers()) do
-        local _ = _318_2.Character
-        for _323, _323_2 in ipairs(_318_2.Character:GetChildren()) do
-            local _ = _323_2.Name
-            _323_2:IsA("Accessory")
-            _323_2:Destroy()
-        end
-    end
-    task.wait(0.1)
-    for _331, _331_2 in ipairs(workspace:GetChildren()) do
-        _331_2:IsA("Model")
-        _331_2:FindFirstChild("Humanoid")
-        for _338, _338_2 in ipairs(_331_2:GetChildren()) do
-            local _ = _338_2.Name
-            _338_2:IsA("Accessory")
-            _338_2:Destroy()
-        end
-    end
-    for _346, _346_2 in ipairs(_call3:GetPlayers()) do
-        local _ = _346_2.Character
-        for _351, _351_2 in ipairs(_346_2.Character:GetChildren()) do
-            local _ = _351_2.Name
-            _351_2:IsA("Accessory")
-            _351_2:Destroy()
-        end
-    end
-    task.wait(0.1)
-    for _359, _359_2 in ipairs(workspace:GetChildren()) do
-        _359_2:IsA("Model")
-        _359_2:FindFirstChild("Humanoid")
-        for _366, _366_2 in ipairs(_359_2:GetChildren()) do
-            local _ = _366_2.Name
-            _366_2:IsA("Accessory")
-            _366_2:Destroy()
-        end
-    end
-    for _374, _374_2 in ipairs(_call3:GetPlayers()) do
-        local _ = _374_2.Character
-        for _379, _379_2 in ipairs(_374_2.Character:GetChildren()) do
-            local _ = _379_2.Name
-            _379_2:IsA("Accessory")
-            _379_2:Destroy()
-        end
-    end
-    task.wait(0.1)
-    for _387, _387_2 in ipairs(workspace:GetChildren()) do
-        _387_2:IsA("Model")
-        _387_2:FindFirstChild("Humanoid")
-        for _394, _394_2 in ipairs(_387_2:GetChildren()) do
-            local _ = _394_2.Name
-            _394_2:IsA("Accessory")
-            _394_2:Destroy()
-        end
-    end
-    for _402, _402_2 in ipairs(_call3:GetPlayers()) do
-        local _ = _402_2.Character
-        for _407, _407_2 in ipairs(_402_2.Character:GetChildren()) do
-            local _ = _407_2.Name
-            _407_2:IsA("Accessory")
-            _407_2:Destroy()
-        end
-    end
-    task.wait(0.1)
-    for _415, _415_2 in ipairs(workspace:GetChildren()) do
-        _415_2:IsA("Model")
-        _415_2:FindFirstChild("Humanoid")
-        for _422, _422_2 in ipairs(_415_2:GetChildren()) do
-            local _ = _422_2.Name
-            _422_2:IsA("Accessory")
-            _422_2:Destroy()
-        end
-    end
-    for _430, _430_2 in ipairs(_call3:GetPlayers()) do
-        local _ = _430_2.Character
-        for _435, _435_2 in ipairs(_430_2.Character:GetChildren()) do
-            local _ = _435_2.Name
-            _435_2:IsA("Accessory")
-            _435_2:Destroy()
-        end
-    end
-    task.wait(0.1)
-    for _443, _443_2 in ipairs(workspace:GetChildren()) do
-        _443_2:IsA("Model")
-        _443_2:FindFirstChild("Humanoid")
-        for _450, _450_2 in ipairs(_443_2:GetChildren()) do
-            local _ = _450_2.Name
-            _450_2:IsA("Accessory")
-            _450_2:Destroy()
-        end
-    end
-    for _458, _458_2 in ipairs(_call3:GetPlayers()) do
-        local _ = _458_2.Character
-        for _463, _463_2 in ipairs(_458_2.Character:GetChildren()) do
-            local _ = _463_2.Name
-            _463_2:IsA("Accessory")
-            _463_2:Destroy()
-        end
-    end
-    task.wait(0.1)
-    for _471, _471_2 in ipairs(workspace:GetChildren()) do
-        _471_2:IsA("Model")
-        _471_2:FindFirstChild("Humanoid")
-        for _478, _478_2 in ipairs(_471_2:GetChildren()) do
-            local _ = _478_2.Name
-            _478_2:IsA("Accessory")
-            _478_2:Destroy()
-        end
-    end
-    for _486, _486_2 in ipairs(_call3:GetPlayers()) do
-        local _ = _486_2.Character
-        for _491, _491_2 in ipairs(_486_2.Character:GetChildren()) do
-            local _ = _491_2.Name
-            _491_2:IsA("Accessory")
-            _491_2:Destroy()
-        end
-    end
-    task.wait(0.1)
-    for _499, _499_2 in ipairs(workspace:GetChildren()) do
-        _499_2:IsA("Model")
-        _499_2:FindFirstChild("Humanoid")
-        for _506, _506_2 in ipairs(_499_2:GetChildren()) do
-            local _ = _506_2.Name
-            _506_2:IsA("Accessory")
-            _506_2:Destroy()
-        end
-    end
-    for _514, _514_2 in ipairs(_call3:GetPlayers()) do
-        local _ = _514_2.Character
-        for _519, _519_2 in ipairs(_514_2.Character:GetChildren()) do
-            local _ = _519_2.Name
-            _519_2:IsA("Accessory")
-            _519_2:Destroy()
-        end
-    end
-    task.wait(0.1)
-    for _527, _527_2 in ipairs(workspace:GetChildren()) do
-        _527_2:IsA("Model")
-        _527_2:FindFirstChild("Humanoid")
-        for _534, _534_2 in ipairs(_527_2:GetChildren()) do
-            local _ = _534_2.Name
-            _534_2:IsA("Accessory")
-            _534_2:Destroy()
-        end
-    end
-    for _542, _542_2 in ipairs(_call3:GetPlayers()) do
-        local _ = _542_2.Character
-        for _547, _547_2 in ipairs(_542_2.Character:GetChildren()) do
-            local _ = _547_2.Name
-            _547_2:IsA("Accessory")
-            _547_2:Destroy()
-        end
-    end
-    task.wait(0.1)
-    for _555, _555_2 in ipairs(workspace:GetChildren()) do
-        _555_2:IsA("Model")
-        _555_2:FindFirstChild("Humanoid")
-        for _562, _562_2 in ipairs(_555_2:GetChildren()) do
-            local _ = _562_2.Name
-            _562_2:IsA("Accessory")
-            _562_2:Destroy()
-        end
-    end
-    for _570, _570_2 in ipairs(_call3:GetPlayers()) do
-        local _ = _570_2.Character
-        for _575, _575_2 in ipairs(_570_2.Character:GetChildren()) do
-            local _ = _575_2.Name
-            _575_2:IsA("Accessory")
-            _575_2:Destroy()
-        end
-    end
-    task.wait(0.1)
-    for _583, _583_2 in ipairs(workspace:GetChildren()) do
-        _583_2:IsA("Model")
-        _583_2:FindFirstChild("Humanoid")
-        for _590, _590_2 in ipairs(_583_2:GetChildren()) do
-            local _ = _590_2.Name
-            _590_2:IsA("Accessory")
-            _590_2:Destroy()
-        end
-    end
-    for _598, _598_2 in ipairs(_call3:GetPlayers()) do
-        local _ = _598_2.Character
-        for _603, _603_2 in ipairs(_598_2.Character:GetChildren()) do
-            local _ = _603_2.Name
-            _603_2:IsA("Accessory")
-            _603_2:Destroy()
-        end
-    end
-    task.wait(0.1)
-    for _611, _611_2 in ipairs(workspace:GetChildren()) do
-        _611_2:IsA("Model")
-        _611_2:FindFirstChild("Humanoid")
-        error("internal 543: <25ms: infinitelooperror>")
-    end
-end)
-local _call618 = Instance.new("ScreenGui")
-_call618.Name = "TokinuHub"
-_call618.ResetOnSpawn = false
-_call618.Parent = _LocalPlayer6:WaitForChild("PlayerGui")
-local _call622 = Instance.new("Frame")
-_call622.Size = UDim2.new(0, 260, 0, 175)
-_call622.Position = UDim2.new(0, 40, 0, 60)
-_call622.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-_call622.BackgroundTransparency = 0.4
-_call622.Active = true
-_call622.Draggable = true
-_call622.Parent = _call618
-local _call630 = Instance.new("UICorner")
-_call630.CornerRadius = UDim.new(0, 14)
-_call630.Parent = _call622
-local _call634 = Instance.new("ImageLabel")
-_call634.Size = UDim2.new(0, 38, 0, 38)
-_call634.Position = UDim2.new(0, 12, 0, 8)
-_call634.BackgroundTransparency = 1
-_call634.Image = "http://www.roblox.com/asset/?id=18347450507"
-_call634.ScaleType = Enum.ScaleType.Fit
-_call634.Parent = _call622
-local _call642 = Instance.new("TextLabel")
-_call642.Size = UDim2.new(1, - 20, 0, 32)
-_call642.Position = UDim2.new(0, 10, 0, 8)
-_call642.BackgroundTransparency = 1
-_call642.Text = "Tokinu Hub"
-_call642.TextColor3 = Color3.fromRGB(255, 255, 255)
-_call642.Font = Enum.Font.GothamBold
-_call642.TextSize = 19
-_call642.TextXAlignment = Enum.TextXAlignment.Center
-_call642.Parent = _call622
-local _call654 = Instance.new("TextButton")
-_call654.Size = UDim2.new(1, - 30, 0, 70)
-_call654.Position = UDim2.new(0, 15, 0.5, - 45)
-_call654.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-_call654.BackgroundTransparency = 0.3
-_call654.Text = "Quantum lagger\nR to activate"
-_call654.TextColor3 = Color3.fromRGB(255, 255, 255)
-_call654.Font = Enum.Font.FredokaOne
-_call654.TextSize = 22
-_call654.TextYAlignment = Enum.TextYAlignment.Center
-_call654.AutoButtonColor = false
-_call654.Parent = _call622
-local _call668 = Instance.new("UICorner")
-_call668.CornerRadius = UDim.new(0, 12)
-_call668.Parent = _call654
-local _call672 = Instance.new("UIGradient")
-local _call682 = ColorSequence.new({
-    [1] = ColorSequenceKeypoint.new(0, Color3.fromRGB(40, 40, 40)),
-    [2] = ColorSequenceKeypoint.new(1, Color3.fromRGB(60, 60, 60)),
-})
-_call672.Color = _call682
-_call672.Rotation = 90
-_call672.Parent = _call654
-local _call684 = Instance.new("TextLabel")
-_call684.Size = UDim2.new(1, - 30, 0, 20)
-_call684.Position = UDim2.new(0, 15, 0, 130)
-_call684.BackgroundTransparency = 1
-_call684.Text = "discord.gg/tokinu"
-_call684.TextColor3 = Color3.fromRGB(200, 200, 200)
-_call684.Font = Enum.Font.Gotham
-_call684.TextSize = 13
-_call684.TextXAlignment = Enum.TextXAlignment.Center
-_call684.Parent = _call622
-game:GetService("UserInputService").InputBegan:Connect(function(_698, _698_2, _698_3)
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
 
-end)
-_call654.MouseButton1Click:Connect(function()
-    local _call705 = _LocalPlayer6.Backpack:FindFirstChild("Quantum Cloner")
-    _call654.Text = "lagging..."
-    for _708, _708_2 in ipairs(_Character9:GetChildren()) do
-        _708_2:IsA("Tool")
-        _708_2.Parent = _LocalPlayer6.Backpack
-    end
-    _call705:IsA("Tool")
-    _call705.Parent = _Character9
-    task.wait(0.03)
-    for _717, _717_2 in ipairs(_LocalPlayer6.Backpack:GetChildren()) do
-        _717_2:IsA("Tool")
-        local _721, _721_2, _721_3 = string.lower(_717_2.Name)
-        string.find(_721, "slap")
-        _717_2:IsA("Tool")
-        _717_2.Parent = _Character9
-        task.wait(0.03)
-    end
-    task.wait(0.15)
-    _call15:FireServer(_call705)
-    task.wait(0.1)
-    for _730, _730_2 in ipairs(_Character9:GetChildren()) do
-        _730_2:IsA("Tool")
-        _730_2.Parent = _LocalPlayer6.Backpack
-    end
-    _call654.Text = "lagged"
-    task.wait(1.5)
-    _call654.Text = "Quantum lagger\nR to activate"
-end)
-_LocalPlayer6.CharacterAdded:Connect(function(_737)
+local ANIMATION_WHITELIST = {
+	-- Astronaut
+	891636393, 891627522, 891621366, 891633237, 1047759695, 891617961, 891639666, 891663592, 891609353,
+	-- Bubbly
+	910025107, 910034870, 910016857, 910004836, 910009958, 1018536639, 910001910, 910028158, 910030921, 909997997,
+	-- Cartoony
+	742638842, 742640026, 742637942, 742637544, 742638445, 885477856, 742637151, 742639220, 742639812, 742636889,
+	-- Elder
+	845386501, 845403856, 845398858, 845397899, 845400520, 901160519, 845396048, 845401742, 845403127, 845392038,
+	-- Knight
+	657564596, 657552124, 658409194, 657595757, 657568135, 885499184, 657600338, 657560551, 657557095, 658360781,
+	-- Levitation
+	616010382, 616013216, 616008936, 616006778, 616008087, 886862142, 616005863, 616011509, 616012453, 616003713,
+	-- Mage
+	707861613, 707897309, 707853694, 707742142, 707855907, 885508740, 707829716, 707876443, 707894699, 707826056,
+	-- Ninja
+	656118852, 656121766, 656117878, 656117400, 656118341, 886742569, 656115606, 656119721, 656121397, 656114359,
+	-- Pirate
+	750783738, 750785693, 750782230, 750781874, 750782770, 885515365, 750780242, 750784579, 750785176, 750779899,
+	-- Robot
+	616091570, 616095330, 616090535, 616088211, 616089559, 885531463, 616087089, 616092998, 616094091, 616086039,
+	-- Rthro
+	2510198475, 2510202577, 2510197830, 2510197257, 2510196951, 3711062489, 2510195892, 2510199791, 2510201162, 2510192778,
+	-- Stylish
+	616140816, 616146177, 616139451, 616136790, 616138447, 886888594, 616134815, 616143378, 616144772, 616133594,
+	-- Superhero
+	616117076, 616122287, 616115533, 616111295, 616113536, 885535855, 616108001, 616119360, 616120861, 616104706,
+	-- Toy
+	782842708, 782843345, 782847020, 782841498, 782845736, 980952228, 782846423, 782844582, 782845186, 782843869,
+	-- Vampire
+	1083462077, 1083473930, 1083455352, 1083445855, 1083450166, 1088037547, 1083443587, 1083464683, 1083467779, 1083439238,
+	-- Werewolf
+	1083216690, 1083178339, 1083218792, 1083195517, 1083214717, 1099492820, 1083189019, 1083222527, 1083225406, 1083182000,
+	-- Zombie
+	616163682, 616168032, 616161997, 616158929, 616160636, 885545458, 616157476, 616165109, 616166655, 616156119,
+	-- R6 animations
+	180435571, 180435792, 180426354, 125750702, 180436148, 180436334, 178130996, 182393478, 129967390, 129967478, 128777973, 128853357, 182435998, 182491037, 182491065, 182436842, 182491248, 182491277, 182436935, 182491368, 182491423, 129423131, 129423030,
+	-- R15 animations
+	507770677, 507765644, 507771019, 507771955, 507772104, 507776043, 507776720, 507776879, 507777268, 507777451, 507777623, 507767968, 507766388, 507766666, 507765000, 507770818, 507770453, 2506281703, 522638767, 507768375, 522635514, 507770239, 913376220, 913384386, 913389285, 913402848, 14618196485,
+	-- Wicked Popular
+	131326830509784, 121152442762481, 104325245285198, 118832222982049, 72301599441680, 99384245425157, 92072849924640,
+	-- Catwalk Glam by e.l.f.
+	119377220967554, 92294537340807, 116936326516985, 81024476153754, 133806214992291, 134591743181628, 109168724482748,
+	-- adidas Community
+	88763136693023, 98600215928904, 122150855457006, 133308483266208, 122257458498464, 82598234841035, 75290611992385,
+	-- Bold by e.l.f.
+	16738332169, 16738333171, 16738333868, 16738336650, 16738337225, 16738339158, 16738340646,
+	-- Wicked "Dancing Through Life"
+	129447497744818, 78147885297412, 135515454877967, 78508480717326, 92849173543269, 110657013921774, 73718308412641,
+	-- Unboxed by Amazon
+	121145883950231, 94788218468396, 121454505477205, 134824450619865, 98281136301627, 105962919001086, 90478085024465,
+	-- adidas Sports
+	18537384940, 18537392113, 18537376492, 18537380791, 18537389531, 18537367238, 18537363391,
+	-- adidas aura
+	97824616490448, 95603166884636, 109996626521204, 118320322718866, 110211186840347, 134530128383903, 83842218823011,
+	-- No Boundaries by Walmart
+	18747060903, 18747062535, 18747067405, 18747069148, 18747070484, 18747073181, 18747074203,
+	-- Oldschool
+	10921240218, 10921244891, 10921241244, 10921242013, 10921230744, 10921243048, 10921229866,
+	-- NFL
+	134630013742019, 129773241321032, 92080889861410, 119846112151352, 117333533048078, 132697394189921, 110358958299415,
+	-- Misc
+	10921259953, 10789327257, 10921261968, 10921269718, 14366558676, 10921258489, 76049494037641, 102357151005774, 507766951
+}
 
+local whitelistSet = {}
+for _, id in ipairs(ANIMATION_WHITELIST) do
+	whitelistSet[id] = true
+end
+
+local function isWhitelisted(animationId)
+	if #ANIMATION_WHITELIST == 0 then
+		return false
+	end
+	return whitelistSet[animationId] == true
+end
+
+local function monitorCharacter(character)
+	local humanoid = character:WaitForChild("Humanoid", 10)
+	if not humanoid then
+		return
+	end
+	
+	local function cancelNonWhitelistedTracks()
+		for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+			local anim = track.Animation
+			if anim then
+				local animationId = anim.AnimationId
+				if animationId then
+					local idString = tostring(animationId)
+					local numericId = tonumber(idString:match("%d+"))
+					
+					if numericId and not isWhitelisted(numericId) then
+						track:Stop()
+					end
+				end
+			end
+		end
+	end
+	
+	local connection
+	connection = RunService.Heartbeat:Connect(function()
+		if not character.Parent or not humanoid.Parent then
+			connection:Disconnect()
+			return
+		end
+		cancelNonWhitelistedTracks()
+	end)
+	
+	character.AncestryChanged:Connect(function()
+		if not character.Parent then
+			connection:Disconnect()
+		end
+	end)
+end
+
+Players.PlayerAdded:Connect(function(player)
+	player.CharacterAdded:Connect(function(character)
+		monitorCharacter(character)
+	end)
+	
+	if player.Character then
+		monitorCharacter(player.Character)
+	end
 end)
+
+for _, player in pairs(Players:GetPlayers()) do
+	if player.Character then
+		monitorCharacter(player.Character)
+	end
+	player.CharacterAdded:Connect(function(character)
+		monitorCharacter(character)
+	end)
+end
